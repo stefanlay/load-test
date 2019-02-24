@@ -9,8 +9,6 @@ fi
 DOMAIN="$1"
 URL1="https://x-forwarded-for.cf.$DOMAIN/"
 
-echo "$URL1"
-
 rm -rf gen/vegeta
 mkdir -p gen/vegeta
 
